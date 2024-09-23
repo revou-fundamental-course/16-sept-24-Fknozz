@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imrev {
+    height: 40;
+    width: 40;
+    margin: 10px 5vh;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 1px;
+    justify-content: space-between;
+}
+
+.samp {
+    display: flex;
+    list-style-type: none;
+    margin: 10px 10vh 10px 10px;
+   
+}
+
+.navbar>.samp>.nopic>li {
+    padding: 5px 30px;
+    list-style-type: none;
+    font-size: 10px;
+}
+
+.navbar>.samp>.nopic>li:hover {
+    padding: 5px 30px;
+    list-style-type: none;
+    font-size: 10px;
+    background-color: rgb(255, 239, 67);
+    cursor: pointer;
+}
+
+.nopic  {
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.nopic>li {
+    border: 1px solid;
+    
+}
+
+.bstart {
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+}
+
+.bend {
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px;
+}
